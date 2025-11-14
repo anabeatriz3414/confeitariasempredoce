@@ -1,0 +1,21 @@
+
+table {
+    width: 100%;
+    font-size: 25px;
+    padding: 50px;
+}
+
+th, td {
+    border: 1px black solid;
+    padding: 10px;
+}
+
+/*cor de fundo para linhas pares*/
+tr:nth-child(odd) {
+    background-color: rgb(252, 240, 250);
+}
+
+/*destaque na linha quando passa o mouse*/
+tr:hover {
+    background-color: rgb(246, 204, 255);
+}
