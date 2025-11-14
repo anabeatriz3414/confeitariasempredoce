@@ -12,7 +12,6 @@ body {
     background-attachment: fixed;
 }
 
-
 div {
     text-align: center;
     margin: 0 auto;
@@ -24,7 +23,6 @@ div {
     box-shadow: 0 8px 18px rgba(200, 80, 80, 0.25);
 }
 
-/* Título */
 div h1 {
     margin-bottom: 20px;
     font-size: 38px;
@@ -32,7 +30,7 @@ div h1 {
     text-shadow: 1px 1px 4px rgba(180, 60, 60, 0.2);
 }
 
-/* Inputs */
+
 input {
     height: 38px;
     width: 220px;
@@ -51,7 +49,7 @@ input:focus {
     box-shadow: 0 0 8px rgba(200, 80, 80, 0.4);
 }
 
-/* Labels */
+
 label {
     display: inline-block;
     font-size: 18px;
@@ -64,7 +62,7 @@ label {
     font-weight: 500;
 }
 
-/* Botões principais */
+
 button {
     font-size: 17px;
     padding: 9px 22px;

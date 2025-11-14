@@ -1,8 +1,8 @@
 // Criar a lista de imagem 
 let imagens = [
-    'assets/img/imagem_bolo1.jpg',
-    'assets/img/imagem_bolo2.webp',
-    'assets/img/imagem_bolo3.avif'
+    './assets/img/imagem_bolo1.jpg',
+    './assets/img/imagem_bolo2.webp',
+    './assets/img/imagem_bolo3.avif'
 ]
 
 let indiceAtualListaImagens = 0
@@ -25,3 +25,7 @@ setInterval(function() {
 
 exibirImagem()
 indiceAtualListaImagens++
+
+'./assets/img/imagem_bolo1.jpg',
+    './assets/img/imagem_bolo2.webp',
+    './assets/img/imagem_bolo3.avif'

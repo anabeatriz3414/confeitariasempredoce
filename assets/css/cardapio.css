@@ -1,0 +1,103 @@
+.img-cardapio {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.menu-cardapio-itens {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.menu-cardapio-item {
+    margin-bottom: 20px;
+}
+
+.logo img {
+  max-width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+body {
+  font-family: 'Comfortaa', cursive;
+  font-size: 16px;
+  color: #5a3e36;
+  background-color: #fff7f2;
+  line-height: 1.7;
+}
+
+header h1 {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #b03a59;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+nav a {
+  font-family: 'Saira', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #5a3e36;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #d94f6a;
+}
+
+.menu-cardapio h2 {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #d94f6a;
+  margin-bottom: 30px;
+}
+
+.menu-cardapio-item h3 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #b03a59;
+  margin-bottom: 8px;
+}
+
+.menu-cardapio-item p {
+  font-family: 'Saira', sans-serif;
+  font-size: 1rem;
+  color: #5a3e36;
+  margin-top: 5px;
+}
+
+footer p {
+  font-family: 'Comfortaa', cursive;
+  font-size: 0.9rem;
+  color: #5a3e36;
+}
+
+/* Agrupamento horizontal da imagem e QR Code */
+.imagem-e-qrcode {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.img-cardapio {
+  width: 65%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.qrcode {
+  width: 30%;
+  margin-left: 5%;
+}
